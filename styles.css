@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Home Section */
+#home {
+    background-image: url('home-background.jpg');
+    background-size: cover;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+#home h1 {
+    font-size: 36px;
+}
+
+.featured-workout {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Workouts Section */
+#workouts {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    color: #4CAF50;
+}
+
+/* Nutrition Section */
+#nutrition {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+ul {
+    list-style-type: square;
+}
+
+/* Photo Gallery Section */
+#photos {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
